@@ -1,0 +1,152 @@
+{    
+      margin:0px;
+      padding:0px;
+      box-sizing:border-box;
+	  font-size:15px;
+	  font-family:Constantia;
+	}
+.menubar 
+   {
+	text-align:center;
+	background-color:#1A5F6C;
+	
+	}
+.menubar ul li a
+    {
+	color:white;
+    text-decoration:none;
+	}
+.menubar ul
+   {
+	display:inline-flex;
+	list-style:none;
+	}
+.menubar ul li
+   {
+	padding:15px;
+    width:120px;
+    margin:15px;
+   }
+.menubar ul li:hover
+	{
+		background-color:#6C1A41;
+		border-radius:10px;
+	}
+.bi
+	{
+		background-image:url(../img/ams.png);
+		background-repeat:no-repeat;
+		background-size:cover;
+
+    }
+	.ft
+	{
+		text-align:center;
+		color:red;
+		
+		background-color:black;
+	}
+	
+	
+	/*******style of reg***/
+	
+	/*
+*/
+h1 	{
+	  text-align:center;
+	}
+.login
+	{
+		background:rgba(162, 217, 206 ,0.8);
+		text-align:center;
+		color: #D98880  ;
+		width:600px;
+		margin:10px auto;
+	}
+.fld
+	{
+		width:400px;
+		margin:10px;
+		padding:10px;
+		border-radius:10px;
+		
+	}
+.fldx
+	{
+		width:190px;
+		margin:10px;
+		padding:10px;
+		border-radius:10px;
+		
+	}
+.btn 
+	{
+		border:none;
+		background-color:silver;
+		width:150px;
+		margin:10px;
+		padding:10px;
+		border-radius:10px;
+	}
+a   {
+	text-decoration:none;
+	color:white;
+    }
+ .menubar{
+	    text-align:center;
+		background-color:#00cc99;
+		}
+		
+.menubar ul 
+       {
+		display:inline-flex;
+		list-style:none;
+	   }
+	   
+.menubar ul li
+       {
+	    width:120px;
+	    padding:15px;
+	    margin:15px;
+	   }
+	   
+.menubar ul li:hover
+       {
+		background-color:#ff6666;
+		border-radius:10px;
+	   }
+	   
+.menubar ul li a
+       {
+	    color:white;
+		text-decoration:none;
+	   }
+	   
+.submenu
+       {
+	    display:none;
+		z-index:1;
+	   }
+	   
+.menubar ul li:hover .submenu
+       {
+	    display:block;
+		position:absolute;
+		background:#00cc99;
+		margin-top:15px;
+		margin-left:-22px;
+		border-radius:10px;
+		text-align: center;
+	   }
+	   
+.menubar ul li:hover .submenu ul
+       {
+		display:block;
+		margin:10px;
+	   }
+.menubar ul li:hover .submenu ul li
+       {
+		width:80px;
+		padding:10px;
+		border-bottom:1px solid white;
+	   }
